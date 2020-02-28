@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>승우의 채팅서버</title>
+  <style>
+    body {
+      padding: 0 50px;
+      text-align: center;
+      background-color: antiquewhite;
+    }
+    #chat {
+      background-color: white;
+      border: 3px solid black;
+      border-radius: 10px;
+      height: 650px;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 3em;
+      color: rgb(196, 196, 196);
+      text-shadow: black 2px 2px 2px;
+    }
+    .text {
+      width: 60%;
+      height: 100px;
+      margin: 0 10px;
+      /*background-color: rgb(216, 216, 216);*/
+      font-size: 60px;
+      border: 3px solid black;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .send {
+      width: 19%;
+      height: 100px;
+      border: 3px solid black;
+      border-radius: 10px;
+      font-size: 60px;
+      margin: 30px;
+    }
+    #send {
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+    }
+    .name {
+      width: 20%;
+      height: 100px;
+      border: 3px solid black;
+      border-radius: 10px;
+      font-size: 60px;
+      text-align: center;
+    }
+    
+  </style>
+  <script>
+    function next_page() {
+      if(document.getElementById('text').value)
+      {
+        location.href = "chat/" + document.getElementById('text').value;
+      }
+    }
+  </script>
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>이름을 입력해주세요</h1>
+  <input type="text" class="text" id="text"><br>
+  <input type="button" value="접속" class="send" onclick="next_page()">
+</body>
+</html>
