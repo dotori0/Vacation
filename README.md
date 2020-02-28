@@ -8,7 +8,7 @@ socket.io로 만듬
 
 ## DLL 인젝션 (자동 이젝션) 으로 메시지 띄우기
 
-./DLL_Injection.exe [PID] [DLL 파일 주소 ("C:\...")]
+./DLL_Injection.exe [PID] [DLL 파일 주소 ("C:\\...")]
 
 windows OS에서 작동
 
