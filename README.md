@@ -1,6 +1,6 @@
-# 코로나 동안 한 것들 모음집 By 승우
+# 코로나 때문에 입학 늦어져서 공부할겸 책 보고 따라해보며 만든 것들 By 삼성고 윤승우
 
-## 실시간 채팅 웹 (PORT : 80)
+## 실시간 채팅 웹
 
 /users로 유저 목록을 볼 수 있다.
 
@@ -8,11 +8,11 @@ socket.io로 만듬
 
 ## DLL 인젝션 (자동 이젝션) 으로 메시지 띄우기
 
-./DLL_Injection.exe [PID] [DLL 파일 주소 ("C:\\...")]
+./DLL_Injection.exe [PID] [DLL 파일 주소 ("C:\...")]
 
 windows OS에서 작동
 
-## 실시간 게시판 (PORT : 3000)
+## 실시간 게시판
 
 mongodb 기반 제작
 
@@ -23,3 +23,11 @@ DB주소 넣어야 실행가능 (내 비번 들어가야 해서 뺌)
 그래프는 연결리스트로 DFS는 스택으로 BFS는 큐로 만듬
 
 크루스칼 알고리즘은 아직 못만듬
+
+## 코드 인젝션 (MessageBoxA)
+
+./Code_Injection.exe [PID]
+
+Windows Os에서 작동
+
+프로세스에 MessageBox 출력
